@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(28, 9, 112, 0.836);
+    font-weight: bolder;
+}
+
+h1 {
+    color: rgba(28, 9, 112, 0.836);
+}
+
+div.main {
+    display: block;
+    text-align: center;
+    padding: 3%;
+    margin: 1%;
+    width: 100%;
+}
+fieldset{
+    display: inline;
+    background-color: rgb(216, 209, 209);
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;   
+}
+
+form {
+    text-align: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input, select{
+    display: block;
+    padding: 10px;
+    width: 90%;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+}
+
+button{
+    background-color: rgba(28, 9, 112, 0.836);
+    padding: 12px;
+    color: white;
+    width: 90%;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
